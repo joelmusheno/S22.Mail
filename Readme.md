@@ -1,3 +1,6 @@
+### Build
+![AppVeyor Status](https://ci.appveyor.com/api/projects/status/dq4crva26c9k4g41?svg=true)
+
 ### Introduction
 
 This repository contains a .NET assembly which adds a couple of extension methods to
