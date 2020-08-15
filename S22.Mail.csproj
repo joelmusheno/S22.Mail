@@ -1,100 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <!--<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>-->
-    
-
     <AssemblyTitle>S22.Mail</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <!--<VersionPrefix>3.3.2</VersionPrefix>-->
     <TargetFrameworks>net451;netstandard2.0</TargetFrameworks>
-    <!--<LangVersion>8</LangVersion>-->
-    <!--<TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
-    <!--<DebugType>portable</DebugType>-->
-    <!--<GenerateDocumentationFile>true</GenerateDocumentationFile>-->
     <AssemblyName>S22.Mail</AssemblyName>
     <OutputType>Library</OutputType>
-    <!--<PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>-->
     <PackageId>S22.Mail</PackageId>
     <PackageProjectUrl>https://github.com/smiley22/S22.Mail</PackageProjectUrl>
-    <!--<PackageOutputPath>.\dist</PackageOutputPath>-->
+    <PackageOutputPath>.\dist</PackageOutputPath>
     <IncludeSymbols>true</IncludeSymbols>
     <IncludeSource>true</IncludeSource>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <Deterministic>false</Deterministic>
-    <!--<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
-    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>-->
-    <!--<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>-->	
   </PropertyGroup>
 
-  <!--<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\S22.Mail.XML</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>-->
-  
-  <!--<ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>-->
-  
-  <!--<ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
-    <Compile Include="Bodypart.cs" />
-    <Compile Include="ContentDisposition.cs" />
-    <Compile Include="ContentTransferEncoding.cs" />
-    <Compile Include="ContentType.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="MailMessage.cs" />
-    <Compile Include="MessageBuilder.cs" />
-    <Compile Include="MIMEPart.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SerializableMailMessage\SerializableAlternateView.cs" />
-    <Compile Include="SerializableMailMessage\SerializableAlternateViewCollection.cs" />
-    <Compile Include="SerializableMailMessage\SerializableAttachment.cs" />
-    <Compile Include="SerializableMailMessage\SerializableAttachmentCollection.cs" />
-    <Compile Include="SerializableMailMessage\SerializableContentDisposition.cs" />
-    <Compile Include="SerializableMailMessage\SerializableContentType.cs" />
-    <Compile Include="SerializableMailMessage\SerializableLinkedResource.cs" />
-    <Compile Include="SerializableMailMessage\SerializableLinkedResourceCollection.cs" />
-    <Compile Include="SerializableMailMessage\SerializableMailAddress.cs" />
-    <Compile Include="SerializableMailMessage\SerializableMailAddressCollection.cs" />
-    <Compile Include="SerializableMailMessage\SerializableMailMessage.cs" />
-    <Compile Include="Util.cs" />
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
-    <None Include="Readme.md" />
-  </ItemGroup>-->
-
-  <!--<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />-->
-
-
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>
