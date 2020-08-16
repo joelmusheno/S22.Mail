@@ -1,0 +1,5 @@
+version: 1.0.{build}
+build_script:
+- ps: >-
+    dotnet build .\S22.Mail.sln -c Release
+    dotnet pack .\S22.Mail.sln --no-build -c Release
