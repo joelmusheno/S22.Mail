@@ -1,5 +1,5 @@
 ### Build
-![AppVeyor Status](https://ci.appveyor.com/api/projects/status/dq4crva26c9k4g41?svg=true)
+[![Build status](https://ci.appveyor.com/api/projects/status/dq4crva26c9k4g41?svg=true)](https://ci.appveyor.com/project/joelmusheno/s22-mail)
 
 ### Introduction
 
